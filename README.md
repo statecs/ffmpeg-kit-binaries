@@ -40,7 +40,7 @@ This repository hosts FFmpeg Kit binaries for iOS development, providing a relia
 
 2. **Direct download URL:**
    ```
-   https://github.com/statecs/ffmpeg-kit-binaries/releases/download/v6.0.0/ffmpeg-kit-https-6.0-ios-xcframework.zip
+   https://github.com/statecs/ffmpeg-kit-binaries/raw/main/ffmpeg-kit-https-6.0-ios-xcframework.zip
    ```
 
 ### For Custom Podspec
@@ -50,7 +50,7 @@ Pod::Spec.new do |s|
   s.name = 'ffmpeg-kit-ios-https'
   s.version = '6.0'
   s.source = { 
-    :http => 'https://github.com/statecs/ffmpeg-kit-binaries/releases/download/v6.0.0/ffmpeg-kit-https-6.0-ios-xcframework.zip'
+    :http => 'https://github.com/statecs/ffmpeg-kit-binaries/raw/main/ffmpeg-kit-https-6.0-ios-xcframework.zip'
   }
   
   s.vendored_frameworks = [
